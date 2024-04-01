@@ -1,0 +1,29 @@
+div.field-type.upload > div > header > div.file-details__main-detail {
+    position: absolute;
+    top: -20px;
+    right: -29px;
+    color: #2196F3;
+}
+
+div.field-type.upload > div > header > button{
+    position: absolute;
+    right: -15px;
+    top: 4px;
+    background-color: aliceblue;
+}
+
+div.field-type.upload > div > header > .thumbnail.thumbnail--size-medium {
+    width: fit-content;
+    height: max-content;
+    display: contents;
+}
+
+div.field-type.upload > div > header > .thumbnail.thumbnail--size-medium img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+div > header > div.file-details__main-detail > div.file-meta > div.file-meta__url > button{
+    background-color: aliceblue;
+}

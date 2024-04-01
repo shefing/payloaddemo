@@ -22,6 +22,7 @@ export default buildConfig({
   admin: {
     user: Users.slug,
     bundler: webpackBundler(),
+    css: path.resolve(__dirname, './css/admin.css'),
   },
   editor: lexicalEditor({
     features: ({ defaultFeatures }) => [
